@@ -6,7 +6,115 @@ a, a:link
 body
 	padding-top 60px
 
+.navbar-inverse {
+    // background-color #7C829A
+    // border-bottom 5px solid #70486A
+    // background-color #60A6C0
+    // border-bottom 5px solid #1A7094
+    // background-color #1A7094
+    background-color #547980
+    border-bottom 6px solid #45ADA8
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 16px
+    color: #FFF
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    text-decoration underline
+}
+
+.navbar-inverse .navbar-nav .active a {
+    background-color #45ADA8
+}
+
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color #45ADA8
+    text-decoration underline
+}
+
+.navbar-brand {
+    font-size 22px
+}
+
+li.social-text > a {
+    display block
+}
+
+li.social-text > a > i {
+    color #45ADA8
+}
+
+li.social-text > a:hover > i {
+    color #FFF
+}
+
+li.social-icons > a {
+    display none
+}
+
+#content {
+    margin-top 25px
+}
+
+.jumbotron {
+    background-color #E5FCC2
+    border-bottom 6px solid #9DE0AD
+}
+
+.my-face {
+    display none
+}
+
+.page-header {
+    border-bottom 2px solid #45ADA8
+}
+
+hr {
+    border-bottom 2px solid #45ADA8
+}
+
 table
 	tfoot, tbody
 		th
 			border-top 1px solid #DDD
+
+@media(min-width: 1024px) {
+    .my-face {
+        display block
+        margin-top 10px
+        margin-right 5px
+    }
+}
+
+@media(min-width: 768px) {
+    li.social-text > a {
+        display none
+    }
+
+    li.social-icons > a > i {
+       color #45ADA8
+    }
+
+    li.social-icons > a {
+        display block
+        padding 0
+        margin-top 2px
+        margin-left 10px
+    }
+
+    li.social-icons > a:hover > i {
+        color #FFF
+    }
+}
+
+@media(max-width: 600px) {
+    h2 {
+        font-size: 22px
+    }
+}

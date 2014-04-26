@@ -12,20 +12,23 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://corwinbrown.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.corwinbrown.com'
+				'www.korybrown.com',
+				'korybrown.com',
+				'www.blakfeld.com',
+				'blakfeld.com',
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Corwin Brown"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Personal site for Corwin Brown - The Artist/Developer/IT Professional
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -34,10 +37,10 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Corwin Brown"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "corwin@corwinbrown.com"
 
 			# Styles
 			styles: [
